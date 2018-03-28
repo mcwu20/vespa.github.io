@@ -1,0 +1,97 @@
+/* VESPA Exercise Nov. 2017 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: absolute;
+  top: 25px;
+  left: 50px;
+  font-size: 50px;
+  color: #e81025;
+  font-family: Helvetica;
+}
+
+ul {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+
+li {
+  width: 120px;
+  height: 10px;
+  font-size: 32px;
+  background-color: rgba(173,187,187,0.5);
+  list-style-type: none;
+  padding: 0.5em 2.25em 1.25em 0.75em;
+  margin-bottom: 20px;
+}
+
+a:link {
+  text-decoration: none;
+  font-family: Verdana;
+  color: black;
+}
+
+a:hover {
+  color: silver;
+}
+
+.on_page {
+  color: red;
+  font-family: Verdana;
+}
+
+#box_one {
+  position: absolute;
+  top: 100px;
+  left: 850px;
+  color: white;
+  font-family: Verdana;
+}
+
+#box_two {
+  position: absolute;
+  top: 250px;
+  left: 850px;
+  color: white;
+  font-family: Verdana;
+}
+
+#box_three {
+  position: absolute;
+  top: 400px;
+  left: 850px;
+  color: white;
+  font-family: Verdana;
+}
+
+#box_one h1, #box_two h1, #box_three h1 {
+  position: absolute;
+  top: 10px;
+  left: -150px;
+  width: 200px;
+  display: none;
+}
+
+#box_one p, #box_two p, #box_three p {
+  position: absolute;
+  top: -5px;
+  left: 150px;
+  width: 450px;
+  padding: 15px 15px 15px 15px;
+  background-color: rgba(23,23,23,0.5);
+  border-radius: 10px;
+  letter-spacing: 1px;
+  display: none;
+}
+
+#box_one:hover h1, #box_two:hover h1, #box_three:hover h1 {
+  display: block;
+}
+
+#box_one:hover p, #box_two:hover p, #box_three:hover p {
+  display: block;
+}
